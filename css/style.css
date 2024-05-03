@@ -19,6 +19,7 @@ html {
 
 body {
     font-family: Georgia, Garamond, serif;
+    background-color: rgb(255, 153, 0);
 }
 
 h1 {
@@ -30,9 +31,6 @@ ul,
     list-style: none;
     border: 10px solid green;
     padding: 30px;
-}
-
-.ingr {
     background-color: #f1f1f1;
 }
 
@@ -64,4 +62,10 @@ a {
     margin-right: auto;
     width: 500px;
     height: auto;
+}
+
+.recipe-card {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
