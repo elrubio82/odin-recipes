@@ -11,9 +11,16 @@ html {
     box-sizing: inherit;
 }
 
+/* END THE ABOVE */
 * {
     /* Use the following to see the box model 
-    /* outline: 2px solid red; */
+       outline: 2px solid red; 
+    */
+    /* Best practice : 
+       override browser settings, can be reset through specificity 
+       margin: 0;
+       padding: 0;
+    END Best practice */
     line-height: 1.5;
 }
 
