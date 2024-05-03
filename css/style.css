@@ -26,10 +26,14 @@ html {
 
 body {
     font-family: Georgia, Garamond, serif;
-    background-color: rgb(255, 153, 0);
+
 }
 
-h1 {
+h1,
+h2,
+h3,
+ul,
+ol {
     text-align: center;
 }
 
@@ -72,7 +76,10 @@ a {
 }
 
 .recipe-card {
-    width: 80%;
+    width: 90%;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
+    border: 20px ridge yellow;
+    background-color: rgb(255, 153, 0);
 }
