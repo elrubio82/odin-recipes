@@ -37,12 +37,19 @@ ul,
     background-color: #f1f1f1;
 }
 
+ul.ingr {
+    list-style: disc outside;
+    text-align: left;
+}
+
 ol {
     list-style: none;
+    list-style-position: outside;
     counter-reset: steps;
     background-color: #f1f1f1;
     border: 20px solid red;
     padding: 30px;
+    text-align: left;
 }
 
 ol li {
@@ -74,4 +81,23 @@ a {
     margin-right: auto;
     border: 20px ridge yellow;
     background-color: rgb(255, 153, 0);
+}
+
+.horiz-container {
+    outline: 2px solid red;
+}
+
+.horiz-container .ingr-box,
+.horiz-container .steps-box {
+    display: inline-block;
+    outline: 2px solid red;
+    vertical-align: top;
+}
+
+.horiz-container .ingr-box {
+    width: 30%;
+}
+
+.horiz-container .steps-box {
+    width: 69%;
 }
